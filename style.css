@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=Satisfy&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cabin:ital,wght@0,400..700;1,400..700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: red;
+}
+.item1{
+    width: 35vw;
+    height: 50vh;
+    margin-top: 100px;
+    margin-left: 480px;
+    background-image: url(./rose\ png.png);
+    background-size: cover;
+    position: relative;
+}
+.item2{
+    width: 28vw;
+    height: 46vh;
+    background-color: white;
+    position: absolute;
+    bottom: 1vw;
+    right: -20vw;
+}
+h1{
+    font-family: "Satisfy", cursive;
+    font-size: 45px;
+    padding-left: 15px;
+    padding-top: 15px;
+}
+#p1{
+    font-family: "Cabin", sans-serif;
+    margin-top: 15px;
+    line-height: 25px;
+    font-size: 15px;
+    padding-left: 15px;
+}
+#p2{
+    font-family: "Cabin", sans-serif;
+    margin-top: 15px;
+    line-height: 25px;
+    font-size: 15px;
+    padding-left: 15px;
+}
